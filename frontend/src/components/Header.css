@@ -1,0 +1,39 @@
+/* Header Container */
+.header {
+    background-color: #60c860;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Title */
+.header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* Navigation */
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* Navigation Links */
+.header nav a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Hover Effect */
+.header nav a:hover {
+    background-color: white;
+    color: #60c860;
+}

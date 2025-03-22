@@ -1,0 +1,60 @@
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard-title {
+    font-size: 28px;
+    color: #60c860;
+    margin-bottom: 20px;
+}
+
+.dashboard-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.total-employees {
+    border-left: 5px solid #60c860;
+}
+
+.avg-tenure {
+    border-left: 5px solid #388e3c;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.chart {
+    width: 45%;
+}
+
+.recent-employees {
+    margin-top: 30px;
+}
+
+.recent-employees ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-employees li {
+    background: #e8f5e9;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}

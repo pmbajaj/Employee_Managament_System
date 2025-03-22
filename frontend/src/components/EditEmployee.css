@@ -1,0 +1,117 @@
+.edit-employee-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.edit-employee-container h2 {
+    color: #b88564;
+    margin-bottom: 20px;
+}
+
+.edit-employee-form .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-employee-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #b88564;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.edit-employee-form input:focus {
+    border-color: #60c860;
+    box-shadow: 0 0 8px rgba(184, 133, 100, 0.5);
+}
+
+.btn-update {
+    width: 100%;
+    background-color: #54b054;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-update:hover {
+    background-color: #60c860;
+}
+.edit-employee-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.edit-employee-container h2 {
+    color: #b88564;
+    margin-bottom: 20px;
+}
+
+/* Employee Selection Dropdown */
+.employee-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #b88564;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+.employee-select:focus {
+    border-color: #60c860;
+    box-shadow: 0 0 8px rgba(184, 133, 100, 0.5);
+}
+
+.edit-employee-form .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-employee-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #b88564;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.edit-employee-form input:focus {
+    border-color: #60c860;
+    box-shadow: 0 0 8px rgba(184, 133, 100, 0.5);
+}
+
+.btn-update {
+    width: 100%;
+    background-color: #54b054;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-update:hover {
+    background-color: #60c860;
+}

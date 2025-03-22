@@ -1,0 +1,50 @@
+.add-employee-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.add-employee-container h2 {
+    color: #60c860;
+    margin-bottom: 20px;
+}
+
+.add-employee-form .form-group {
+    margin-bottom: 15px;
+}
+
+.add-employee-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #56b156;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.add-employee-form input:focus {
+    border-color: #60c860;
+    box-shadow: 0 0 8px rgba(44, 122, 44, 0.5);
+}
+
+.btn-add {
+    width: 100%;
+    background-color: #51a951;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-add:hover {
+    background-color: #388f38;
+}

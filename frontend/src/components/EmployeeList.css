@@ -1,0 +1,138 @@
+/* Container Styling */
+.employee-list-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+h2 {
+    color: #60c860;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Buttons Group */
+.button-group {
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+/* Action Buttons */
+.export-pdf {
+    background: #ff7043;
+    color: white;
+}
+
+.export-excel {
+    background: #1e88e5;
+    color: white;
+}
+
+.print {
+    background: #ffca28;
+    color: black;
+}
+
+.add-employee {
+    background: #60c860;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Employee List */
+.employee-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Employee Card */
+.employee-card {
+    background-color: #f9f5f2;
+    border-left: 5px solid #60c860;
+    padding: 15px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    text-align: left;
+}
+
+.employee-card:hover {
+    transform: translateY(-5px);
+}
+
+.employee-card h3 {
+    margin: 0;
+    color: #333;
+    font-size: 20px;
+}
+
+.employee-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Buttons */
+.action-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-edit {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-edit:hover {
+    background-color: #388e3c;
+}
+
+.btn-delete {
+    background-color: #d9534f;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-delete:hover {
+    background-color: #c62828;
+}
+
+/* No Employees Message */
+.no-employees {
+    font-size: 16px;
+    color: #777;
+    margin-top: 20px;
+}
