@@ -1,4 +1,5 @@
 Employee Management System (EMS) 🏢
+
 A full-stack web application for managing employee records efficiently, built using React (frontend) & Spring Boot (backend) with SQLite database.
 
 🚀 Features
